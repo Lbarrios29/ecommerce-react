@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../galeria/galeria.css'
+import '../../Galeria/galeria.css'
 
 function ItemGaleria(props) {
 

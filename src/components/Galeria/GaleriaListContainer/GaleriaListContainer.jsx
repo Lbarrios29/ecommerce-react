@@ -4,7 +4,7 @@ import { getGaleria } from '../../../utils/getGaleria'
 import ItemListGaleria from '../ItemListGaleria/ItemListGaleria'
 import Loader from '../../../components/Loader/Loader'
 import { Container, Row } from 'react-bootstrap'
-import '../../galeria/galeria.css'
+import '../../Galeria/galeria.css'
 
 function GaleriaListContainer() {
 

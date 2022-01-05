@@ -1,4 +1,4 @@
-import ItemCount from '../../productos/ItemCount/ItemCount'
+import ItemCount from '../../Productos/ItemCount/ItemCount'
 import { useCartContext } from '../../../context/CartContext'
 
 function Cart(props) {

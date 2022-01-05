@@ -5,16 +5,16 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './components/Home/Home';
 import Nosotros from './components/Nosotros/Nosotros';
 import Servicios from './components/Servicios/Servicios';
-import Productos from './components/productos/ItemListContainer/ItemListContainer.jsx'
-import Galeria from './components/galeria/GaleriaListContainer/GaleriaListContainer';
+import Productos from './components/Productos/ItemListContainer/ItemListContainer.jsx'
+import Galeria from './components/Galeria/GaleriaListContainer/GaleriaListContainer';
 import Contacto from './components/Contacto/Contacto';
-import ItemDetailContainer from './components/productos/ItemDetailContainer/ItemDetailContainer';
+import ItemDetailContainer from './components/Productos/ItemDetailContainer/ItemDetailContainer';
 import CartContextProvider from './context/CartContext'
-import ItemCartContext from './components/carritoCompras/ItemCartContext/ItemCartContext';
-import TerminarCompra from './components/carritoCompras/TerminarCompra/TerminarCompra';
+import ItemCartContext from './components/CarritoCompras/ItemCartContext/ItemCartContext';
+import TerminarCompra from './components/CarritoCompras/TerminarCompra/TerminarCompra';
 import Footer from './components/Footer/Footer';
 import Display404 from './components/404/Display404';
-import FormularioCompra from './components/carritoCompras/FormularioCompra/FormularioCompra.jsx'
+import FormularioCompra from './components/CarritoCompras/FormularioCompra/FormularioCompra.jsx'
 
 function App() {
   return (
