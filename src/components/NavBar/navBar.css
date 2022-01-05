@@ -1,0 +1,110 @@
+/**$*$********************************************************************
+*$*$                         MENU                                        *
+*$*$**********************************************************************/
+header{
+    background-color: black;
+}
+
+/**$*$*****************************************************************
+*$*$                         CART WIDGET                              *
+*$*$*******************************************************************/
+.cart:hover {
+    color: #2a77d6 !important;
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
+/**$*$*****************************************************************
+*$*$                         LOGO                                     *
+*$*$*******************************************************************/
+.logo {
+    width: 30%;
+    height: auto;
+    /* background-color: blue; */
+}
+
+.logo__img--center {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+/**$*$********************************************************************
+*$*$             BARRA NAVEGACION                                        *
+*$*$*********************************************************************/
+.menuSecciones {
+    letter-spacing: 2px;
+    color: white !important;
+}
+
+.menuSecciones:hover {
+    color: #2a77d6 !important;
+    transform: scale(1.1, 1.1);
+}
+
+.hoverOpciones:hover {
+    background-color: #2a77d6 !important;
+}
+
+.navbar .dropdown-menu {
+    background-color: #212529;
+}
+
+/**$*$********************************************************************
+*$*$                         CUSTOM ICON HAMBURGUESA                     *
+*$*$**********************************************************************/
+#customBurger{
+    background-color: #f0f0e5;
+}
+
+/**$*$********************************************************************
+*$*$                         COUNTER CARRITO                             *
+*$*$**********************************************************************/
+.contador{
+    background-color: #2a77d6;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 185px;
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 100;
+}
+
+/*TABLET LANDSCAPE UP DISPOSITIVOS MEDIOS*/
+@media screen and (max-width: 768px) {
+
+    .contador {
+        top: 380px;
+        left: 60px;
+        font-size: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/*TELEFONOS LANDSCAPE + TABLET VERTICAL DISPOSITIVOS SMALLS*/
+@media screen and (max-width: 599px) {
+
+    .contador{
+        top: 355px;
+        left: 60px;
+
+    }
+
+    #IdCart{
+        padding-left: 30px;
+    }
+
+    #basic-nav-dropdown{
+        padding-left: 30px;
+    }
+
+}
+
